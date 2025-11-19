@@ -12,9 +12,33 @@ main {
     height: auto;
 }
 
+image {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: "Sora", sans-serif;
+}
+
 header {
     background-image: url("resources/background-png.png");
     height: 90px;
     background-size: cover;
+}
 
+.headlines {
+    padding: 30px;
+}
+
+h1 {
+    color: #6B59D0;
+    font-size: 1.5em;
+}
+
+main p {
+    color: #374151;
+    font-size: 2em;
+    font-weight: 700;
+    padding: 25px 0;
 }
