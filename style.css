@@ -58,8 +58,8 @@ main p {
     font-size: 1.4em;
     font-weight: 500;
     padding: 20px 0;
-    /* border-left: 3px solid #6B59D0; */
-
+    border-left: 3px solid #6B59D0;
+    margin-left: -1.5rem
 }
 
 .container-content p {
