@@ -46,5 +46,29 @@ main p {
 .container {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 20px;
+}
+
+.container-content {
+    padding: 25px;
+    border-left: 3px dashed #DEDDEB;
+}
+
+.container-content h3 {
+    font-size: 1.4em;
+    font-weight: 500;
+    padding: 20px 0;
+    /* border-left: 3px solid #6B59D0; */
+
+}
+
+.container-content p {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+.purple {
+    color: #6B59D0;
+    font-weight: 400;
 
 }
