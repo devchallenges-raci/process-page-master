@@ -42,3 +42,9 @@ main p {
     font-weight: 700;
     padding: 25px 0;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
