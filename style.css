@@ -57,9 +57,9 @@ main p {
 .container-content h3 {
     font-size: 1.4em;
     font-weight: 500;
-    padding: 20px 0;
+    padding: 20px 20px 0;
     border-left: 3px solid #6B59D0;
-    margin-left: -1.5rem
+    margin-left: -1.5rem;
 }
 
 .container-content p {
@@ -70,5 +70,16 @@ main p {
 .purple {
     color: #6B59D0;
     font-weight: 400;
+}
 
+@media screen and (min-width: 1024px) {
+    main {
+        min-width: 1024px;
+        ;
+    }
+
+    .container {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
 }
