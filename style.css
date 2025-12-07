@@ -41,6 +41,7 @@ main p {
     font-size: 2em;
     font-weight: 700;
     padding: 25px 0;
+    min-height: 100%;
 }
 
 .container {
@@ -50,14 +51,15 @@ main p {
 }
 
 .container-content {
-    padding: 25px;
     border-left: 3px dashed #DEDDEB;
+    padding: 25px;
+    height: auto;
 }
 
 .container-content h3 {
     font-size: 1.4em;
     font-weight: 500;
-    padding: 20px 0;
+    padding: 20px 20px 0;
     border-left: 3px solid #6B59D0;
     margin-left: -1.5rem
 }
@@ -70,5 +72,25 @@ main p {
 .purple {
     color: #6B59D0;
     font-weight: 400;
+
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        min-width: 1024px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, auto);
+        gap: 20px;
+    }
+
+    .container>div:first-child {
+        grid-column: 1 / span 4;
+    }
+
+
 
 }
